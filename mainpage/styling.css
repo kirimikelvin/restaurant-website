@@ -1,0 +1,101 @@
+body{
+    background-image:url(designimages/logo2.png);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter:darken;
+}
+#sideimage{
+    position:relative left;
+}
+ nav{
+    width:100%;
+    height:90px;
+    background-color:rgb(7, 235, 64,0.1) ;   
+}
+.navcontent{
+    display:inline;
+}
+ul{
+    list-style: none;
+    margin-left: 1350px;
+    /*-margin-bottom:6px;*/
+    
+}
+li{
+    text-decoration: none;
+    display:inline ;
+}   
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}   
+a:hover{
+    color: aqua;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+buton{
+    background-color: crimson;
+}
+#logo{
+    height: 80px;
+    border-radius: 100%;
+    border-top-left-radius:0%;
+    border-bottom-left-radius:0%;
+    margin-top:10px;
+}
+header{
+    width:80%;
+    height:60px;
+   /* background-color: black;*/
+    margin-bottom:10px; 
+
+    
+}
+section{
+    float:left;
+    width:700px;
+    height:calc(100vh - 232px);
+    margin-bottom: 120px;
+    /*border: 1px solid red ;*/
+}
+aside{
+    float:right;
+    width:37%;
+    height:calc(100vh - 232px);
+    margin-bottom: 120px;
+    /*border:1px dotted red ;*/
+}
+#left{
+    border:2px double rgb(69, 25, 99);
+    height:50vh;
+    border-bottom-right-radius:50% ;
+    border-top-right-radius:50%;
+    background-image: url(../mainpage/designimages/burger2.webp);
+    background-size:cover;
+    opacity: 0.5;
+    
+}
+#right{
+    border:2px double rgb(24, 85, 39) ;
+    height:50vh;
+    border-top-left-radius:50%;
+    border-bottom-left-radius: 50%;
+    background-image: url(../mainpage/designimages/burger2flipped.png);
+    background-size: cover;
+    opacity: 0.5;
+}
+hr{
+    clear: both;
+    width: 95%;
+}
+footer{
+    height:80px; 
+    width:100%; 
+    clear:both;
+    margin-top:10px;
+    background-color:rgb(138, 88, 138,0.2);
+
+}

@@ -1,0 +1,101 @@
+body{
+    background-image: url(./menuimages/menubackround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    height:50px;
+    width:100%;
+    background-color:black;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-decoration:underline;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 800;
+}
+/*main*/
+section{
+    float:left;
+    
+    width:49.5%;
+    height:300px;
+}
+aside{
+    float:right;
+    width:49.5%;
+    height: 300px;
+}
+.leftitem{
+    display: grid;
+    border:1px solid yellow;
+    border-radius: 8px;
+    height:45px;
+    margin-top: 2px;
+    margin-left:2px;
+    text-align:left;
+    padding-top:2px;
+    color: aliceblue;
+}
+#heading{
+    width:100%;
+    height:47px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: x-large;
+    padding-top:10px;
+    color: aliceblue;
+}
+.leftitem#price{
+    text-align: center;
+    font-size: x-large;
+    border: 1px hidden black;
+}
+hr{
+    clear: both;
+}
+
+/*type1*/
+.leftcontainer{
+    display:grid;
+    grid-template-columns: 847px 80px ;
+    
+}
+#aside1{
+    background-image: url(../menu/menuimages/asianfood.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    opacity:0.6;
+}
+/*type2*/
+#section2{
+    margin-top:20px;
+   border-radius:20px;
+}
+#aside2{
+    margin-top:20px;
+}
+.rightcontainer{
+    display:grid;
+    grid-template-columns: 847px 80px ;
+}
+#section2{
+    background-image:url(../menu/menuimages/africancuisine.jpg);
+    opacity: 0.8;
+}
+/*type3*/
+.leftcontainer3{
+    display:grid;
+    grid-template-columns: 847px 80px ;
+}
+#section3{
+    margin-top: 20px;
+}
+#aside3{
+    margin-top:20px;
+    left 
+}
