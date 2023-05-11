@@ -6,21 +6,22 @@ body{
 
 }
 nav{
-    height:50px;
+    height:100px;
     width:100%;
-    background-color:black;
     margin-bottom: 20px;
-    color: aliceblue;
-    text-decoration:underline;
+    color:yellow;
     text-align: center;
     font-size: 40px;
     font-family:'Times New Roman', Times, serif ;
-    font-weight: 800;
+    font-weight: 50;
+}
+nav:hover{
+    text-shadow:10px 10px 9px rgb(139, 139, 45);
+    font-size:41px;
 }
 /*main*/
 section{
     float:left;
-    
     width:49.5%;
     height:300px;
 }
@@ -42,12 +43,17 @@ aside{
 }
 #heading{
     width:100%;
-    height:47px;
+    height:40px;
     border-radius: 8px;
     text-align: center;
     font-size: x-large;
     padding-top:10px;
     color: aliceblue;
+    text-decoration: underline;
+}
+#heading:hover{
+    color:yellow;
+    font-size:xx-large;
 }
 .leftitem#price{
     text-align: center;
@@ -59,10 +65,17 @@ hr{
 }
 
 /*type1*/
+#section1{
+    border-top: 2px solid yellow;
+}
 .leftcontainer{
     display:grid;
     grid-template-columns: 847px 80px ;
+    border-radius: 20px;
     
+}
+.leftcontainer:hover{
+    background-color:rgb(231, 231, 240,0.3); 
 }
 #aside1{
     background-image: url(../menu/menuimages/asianfood.jpg);
@@ -70,14 +83,23 @@ hr{
     background-size: cover;
     border-radius: 20px;
     opacity:0.6;
+    border-top: 2px double yellow;
+    border-bottom: 2px double yellow;
+}
+#section1:hover{
+    background-color:rgb(231, 231, 240,0.3);
+    border-radius: 20px;
 }
 /*type2*/
 #section2{
     margin-top:20px;
    border-radius:20px;
+   border-top:2px solid yellow;
+   border-bottom:2px solid yellow;
 }
 #aside2{
     margin-top:20px;
+    border-top: 2px solid yellow;
 }
 .rightcontainer{
     display:grid;
@@ -86,6 +108,10 @@ hr{
 #section2{
     background-image:url(../menu/menuimages/africancuisine.jpg);
     opacity: 0.8;
+   
+  
+    background-position: center;
+   
 }
 /*type3*/
 .leftcontainer3{
@@ -94,8 +120,37 @@ hr{
 }
 #section3{
     margin-top: 20px;
+    border-top: 2px solid yellow;;
 }
 #aside3{
+    background-image:url(../menu/menuimages/westernfood.jpg);
+    background-position: center;
+    background-size:cover;
+    border-radius: 20px;
+    opacity:0.6;
     margin-top:20px;
-    left 
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+}
+.leftcontainer3:hover{
+    background-color: rgb(231, 231, 240,0.3); 
+    border-radius: 20px;
+}
+.leftitem:hover{
+ color: aqua;
+ font-size:20px;
+ background-color:rgb(231, 231, 240,0.5);
+}
+button{
+    width:100px;
+    height:48px;
+}
+footer{
+    clear: both;
+    height: 50px;
+    width:100%;
+    margin-left: 900px;
+    padding-top: 10px;
+
+    
 }
